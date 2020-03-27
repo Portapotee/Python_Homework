@@ -49,6 +49,17 @@ class Snowman:
         pen1.goto(self.bottomX + self.body*1/4,self.bottomY + self.leg*3.45)
         pen1.down()
         pen1.circle(self.head/8)
+        pen1.pu()
+        pen1.goto(self.bottomX,self.bottomY + self.leg*4.2)
+        pen1.down()
+        pen1.right(60)
+        pen1.fd(self.head*2)
+        pen1.right(120)
+        pen1.fd(self.head*2)
+        pen1.right(120)
+        pen1.fd(self.head*2)
+        pen1.right(60)
+
 
     def drawLeg(self, pen1):
         pen1.pu()
@@ -115,3 +126,4 @@ def drawRectangle(pen1, x, y, width, height):
     pen1.right(90)
     pen1.fd(height)
     pen1.right(90)
+
