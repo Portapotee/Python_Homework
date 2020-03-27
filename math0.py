@@ -143,3 +143,81 @@ print('39. 99 x 42 =',99*42)
 print('40. The cube root of 511111 is', 51111**(1/3))
 print('41. 32^2 - 21^2 =', (32**2) - (21**2))
 print('42. The square root of 784 is', 784**(1/2))
+print('43. The remainder of 458/11 is', 458 % 11)
+print('44. 2^9 =',2**9)
+print('45. 112 x 103 =', 112*103)
+print('46. The next term is the arithmatic sequence 14,33,52,71,90,... is',(90 - 71)+90)
+print('47. 66 x 46 =', 66*46)
+print('48. The perimeter of a rectangle with sides of length 12 and 9 is', (12*2)+(9*2))
+print('49. 1/7 + 1/14 + 1/28 = ', end='')
+
+from fractions import*
+
+x = (1/7)+(1/14)+(1/28)
+str(Fraction(x))
+print(Fraction(x))
+
+print('50. 375 x 480 =', 375*480)
+print('51. 32^2 + 17^2 =', (32**2) + (17**2))
+print('52. 16(2/3)% = ', end='')
+
+print(str(float(((16*3)+2)/3))+'%')
+#code from https://stackoverflow.com/questions/5306756/how-to-print-a-percentage-value-in-python
+
+print('53. 4/9 of 1/4 of 99 is', (99*(1/4))*(4/9))
+print('54. If 4 + 12x = 36 then 3x + 1 =', (((36 - 4)/12)*3)+1)
+print('55. 92 x 92 =',92*92)
+print('56. The greatest possible perimeter of an isoceles triangle with sides of length 2 and 5 is', 5 + 2 + ((5-2)+3))
+print('57. The square root of 7056 is', 7056**0.5)
+print('58. 134 in base 8 in base 2 is ',)#end='')
+
+#y=((oct(134)))
+#print(bin(y))
+
+print('59. The sum of the terms in the arithmatic sequence 1,3,5,7,...,49 is')
+
+print('60. 285714 x 16 =', 285714*16)
+print('61. A fair dice is rolled twice. The probability of the two rolls summing to 9 is', (4*2)/(6*6))
+
+print('62. 241 x 111 =', 241*111)
+print('63. 9(5/8) x 9(3/8) = ' , end='')
+
+import fractions
+
+f1 = fractions.Fraction(((9*8)+5), 8)
+f2 = fractions.Fraction(((9*8)+3), 8)
+
+print((f1*f2))
+
+#code from https://www.w3resource.com/python-exercises/math/python-math-exercise-46.php
+
+print('64. The supplement to a 51 degree angle has a measure of', 180-51, 'degrees')
+print('65. If 6^x = 16 then 6^2x =', 16*16)
+print('66. The number 75 written in base 6 is')
+print('67. 7(2/3) x 11(2/3) = ', end='')
+
+import fractions
+
+f3 = fractions.Fraction(((7*3)+2), 3)
+f4 = fractions.Fraction(((11*3)+2), 3)
+
+print((f3*f4))
+
+print('68. 0.0666... (fraction) = ', end='')
+
+from fractions import Fraction
+
+print(Fraction(0.06))
+
+print('69. 72 x 625 =', 72*625)
+print('70. The square root of 10 to the power of 5 is', (10**0.5)**5)
+print('71. The cube root of 1259712 is', 1259712**(1/3))
+print('72. The hypotenuse of a right triangle with legs of length 20 and 21 is',((20**2)+(21**2))**0.5)
+print('73. 396 x 394 =', 396*394)
+print('74. An equilateral triangle with side of length 6 x the square root of 3 has a height of length', (6*(3**0.5))-((6*(3**0.5))/2))
+print('75. The number of positive integral divisors of 54 is')
+print('76. The mean of the set 9,21,20,22,23 is', (9+21+20+22+23)/5)
+print('77. The reciprocal of 20/19 is', 19/20)
+print('78. The eighth term in the geometric sequence 1/8, 1/4, 1/2 1,... is', ((1-(1/2))*4)+1)
+print('79. 16 x 22 x 15 =', 16*22*15)
+print('80. The square root of 2 time the square root of 101 time the square root of 9 times the square root of 2 is', (2**0.5)*(101**0.5)*(8**0.5)*(2**0.5))
