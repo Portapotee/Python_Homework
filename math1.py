@@ -30,7 +30,7 @@ def add(x,y,z):
 def sub(x,y,z):
     print("%d. %d - %d = %d" % (z,x,y,x-y))
 
-def mutiply(x,y,z):
+def multiply(x,y,z):
     print("%d. %d x %d = %d" % (z,x,y,x*y))
 
 def divide(x,y,z):

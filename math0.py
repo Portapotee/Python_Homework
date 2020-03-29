@@ -1,24 +1,28 @@
 from math1 import *
-
 print("1. 2020 - 20 =", 2020 - 20)
 add(2020, 20, 1)
 sub(2020, 20, 1)
 list1 = [2020,20,50,120]
 addList(list1)
 # print("2. 494 + 118 =", 494 + 118)
+add(494, 118, 2)
 # print("3. The tens digit of 1296 is", "1296" [-2])
 # print("4. 60/5 = ", 60/5)
 # print("5. 14 x 50 =", 14*50)
+multiply(14,50,5)
 # print("6. The remainder of 66/4 is", 66 % 4)
 # print("7. The product of 14 and 3 is", 14*3)
 # print("8.  8 x 11 + 8 =", 8*11+8)
 # print("9. 53 + 12 + 28 + 7 =", 53+12+28+7)
+list3 = [53,12,28,7] #define list
+addList(list3)
 # print("10. 201 + 402 + 804 + 603 =", 201+402+804+603)
 
 # import math
 
 # print("11. 1987 rounded to the nearest ten is", math.floor((1987+5)/10)*10)
 # print("12. 17^2 =", 17**2)
+multiply(17,17,12)
 # print("13. 578 - 361 - 27 =", 578-361-27)
 # print("14. 11 x 48 =", 11*48)
 # print("15. 681 - 292 =", 681-292)
