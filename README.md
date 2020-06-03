@@ -1,0 +1,1 @@
+![students score](plot.png)
